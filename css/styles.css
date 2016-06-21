@@ -1,0 +1,207 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+html, body {
+    background-image: url("/img/fond.jpg");
+    background-attachment: fixed;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.4;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header.header {
+    margin-left: 6%;
+    margin-right: 6%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    background-color: #1dffdc;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: 0px 3px 0px #489aab;
+}
+
+nav.menu {
+
+    float: left;
+    padding-left: 7%;
+    text-decoration: none;
+}
+nav.menuContact {
+
+    float: right;
+    padding-right: 7%;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #52b9ca;
+}
+
+a.menu {
+    text-decoration: none;
+    color: inherit;
+    float: left;
+    text-align: center;
+    width: 80px;
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+a.menu_active {
+    text-decoration: none;
+    color: inherit;
+    float: left;
+    text-align: center;
+    width: 80px;
+    display: block;
+    padding: 0 10px;
+    background-color: #52b9ca;
+}
+
+a.contact {
+    text-decoration: none;
+    color: inherit;
+    float: right;
+    text-align: center;
+    width: 80px;
+    display: block;
+    padding: 0 10px;
+}
+
+a.contact_active {
+    text-decoration: none;
+    color: inherit;
+    float: right;
+    text-align: center;
+    width: 80px;
+    display: block;
+    padding: 0 10px;
+    background-color: #52b9ca;
+}
+
+a:hover {
+    color: #1DFFDC;
+}
+
+a.menu:hover {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.1s;
+    background-color: #2ecc71;
+}
+
+a.menu_active:hover {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.1s;
+    background-color: #2ecc71;
+}
+
+a.contact:hover {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.1s;
+    background-color: #2ecc71;
+}
+
+a.contact_active:hover {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.1s;
+    background-color: #2ecc71;
+}
+
+div.content {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: azure;
+    border-radius: 3px;
+    margin-bottom: 7%;
+}
+
+div.error {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ed9c96;
+    color: #ca1f2f;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ca1f2f;
+    text-align: center;
+}
+
+div.no_error {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #9bed9c;
+    color: #2eca20;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #2eca20;
+    text-align: center;
+}
+
+div.tell {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    color: #8a8a8a;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #8a8a8a;
+    text-align: center;
+}
+
+button.send_the_message {
+    font-size: 20px;
+    background-color: #68eeff;
+    border-radius: 5px;
+    border-color: #488fa0;
+    color: #488fa0;
+    height: 40px;
+    width: 200px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+button.send_the_message:hover {
+    font-size: 20px;
+    background-color: #5bccdd;
+    border-radius: 5px;
+    border-color: #488fa0;
+    color: #488fa0;
+    height: 40px;
+    width: 200px;
+    border-style: solid;
+    border-width: 3px;
+    cursor: pointer;
+}
+
+textarea.form-message {
+    width: 100%;
+    height: 500px;
+    font-family: Roboto;
+}
+
+div.form-mes-div {
+    padding-right: 7px;
+}
+
+iframe.rounded {
+    border-radius: 5px;
+}
